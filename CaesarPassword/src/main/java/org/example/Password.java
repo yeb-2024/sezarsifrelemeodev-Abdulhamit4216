@@ -14,6 +14,8 @@ public class Password {
         frame.setLayout(new GridLayout(5,2));
 
         keyLabel = new JLabel("Anahtar: ");
+        JTextField keyField = new JTextField();
+
 
     }
 }
