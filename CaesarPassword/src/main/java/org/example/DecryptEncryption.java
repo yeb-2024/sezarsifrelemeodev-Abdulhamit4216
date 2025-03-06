@@ -62,9 +62,9 @@ public class DecryptEncryption implements ActionListener {
         String anahtar = keyTexField.getText().trim();
         String şifre = passTextField.getText().trim();
         String mesaj = decryptScreen.decript(şifre,Integer.parseInt(anahtar));
-        System.out.println("Anahtar" + anahtar);
-        System.out.println("mesaj " + mesaj);
-        System.out.println("şifre" + şifre);
+        System.out.println("Anahtar: " + anahtar);
+        System.out.println("Mesaj: " + mesaj);
+        System.out.println("Şifre: " + şifre);
         JOptionPane.showMessageDialog(frame,"şifre" + mesaj, "şifrelem sonucu ",JOptionPane.INFORMATION_MESSAGE);
 
     }

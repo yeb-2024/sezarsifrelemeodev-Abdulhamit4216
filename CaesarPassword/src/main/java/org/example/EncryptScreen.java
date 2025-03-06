@@ -18,7 +18,7 @@ public class EncryptScreen implements ActionListener {
     EncryptScreen(){
         frame = new JFrame("şifreleme yap");
         font = new Font("Arial",Font.PLAIN,24);
-        keyTexField =textFieldOlustur();
+        keyTexField = textFieldOlustur();
         messageTextField =  textFieldOlustur();
         şifreleButton = buttonOlustur("şifrele");
         decryptScreen = new DecryptScreen();

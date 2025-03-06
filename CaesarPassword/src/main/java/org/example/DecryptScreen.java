@@ -11,12 +11,12 @@ public class DecryptScreen {
 
     public String encrypt(String message ,int key){
         int mesajuzunluk = message.length();
-        String sonuc = "" ;
+        String sonuc = " " ;
 
         for (int i = 0; i <   mesajuzunluk; i++) {
             char harf = message.charAt(i);
             if (harf == ' '){
-                sonuc+= "";
+                sonuc+= " ";
                 continue;
             }
             char buyukharf = Character.toUpperCase(harf);
@@ -34,8 +34,8 @@ public class DecryptScreen {
 
         for (int i = 0; i < mesajUzunluk; i++) {
             char harf = şifre.charAt(i);
-            if (harf == ' ' ){
-                sonuc += "";
+            if (harf == ' '){
+                sonuc += " ";
                 continue;
             }
             char buyukharf = Character.toUpperCase(harf);
